@@ -22,7 +22,7 @@
     "requires": []
   },
   "esmodules": [
-    "./scripts/main.js"
+    "scripts/main.js"
   ],
   "scripts": [
     "scripts/lib/lib.js"

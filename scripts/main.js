@@ -1,5 +1,5 @@
   
-const moduleName = 'custom-dice-d6';
+const moduleName = 'banana-d6';
 
 Hooks.once('diceSoNiceReady', (dice3d) => {
   // MASKS
@@ -50,10 +50,10 @@ Hooks.once('diceSoNiceReady', (dice3d) => {
     ]      
   });
   // AVATAR
-  dice3d.addSystem({id:"memesssnto2", name:"sss"}, false);
+  dice3d.addSystem({id:"mementocoin", name:"memento-coin"}, false);
   dice3d.addDicePreset({
     type:"dc",
-    system:"sssss",
+    system:"GURPS",
     labels:[
       'modules/' + moduleName + '/images/memento/heads.webp', 
       'modules/' + moduleName + '/images/memento/tail.webp'
