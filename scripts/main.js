@@ -24,10 +24,6 @@ Hooks.once('diceSoNiceReady', (dice3d) => {
       'modules/' + moduleName + '/images/memento/d6-6-b.webp'
     ]      
   });
-
-
-  
-    // AVATAR
   dice3d.addSystem({id:"cyberpunk", name:"Cyberpunk"}, false);
   dice3d.addDicePreset({
     type:"d6",
@@ -49,11 +45,12 @@ Hooks.once('diceSoNiceReady', (dice3d) => {
       'modules/' + moduleName + '/images/cyberpunk/6.png'
     ]      
   });
-  // AVATAR
-  dice3d.addSystem({id:"mementocoin", name:"memento-coin"}, false);
+
+ 
+  dice3d.addSystem({id:"moeda", name:"moeda"}, false);
   dice3d.addDicePreset({
     type:"dc",
-    system:"GURPS",
+    system:"moeda",
     labels:[
       'modules/' + moduleName + '/images/memento/heads.webp', 
       'modules/' + moduleName + '/images/memento/tail.webp'
